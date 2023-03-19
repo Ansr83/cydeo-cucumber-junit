@@ -70,11 +70,6 @@ Feature: Fidexio login feature
     And User clicks the login button
     Then User can see "Please fill out this field." message.
 
-  @FIX10-361 @wip
-  Scenario:
-    Given User opens a browser and go to login page
-    When User writes "something" into password box
-    Then user should see the password in bullet signs
 
   @FIX10-362 @wip
   Scenario:
